@@ -29,10 +29,10 @@ while play_again == True:
 
     #welcome and and ask for number of rounds
     print("Welcome to Rock, Paper, Scissors!")
-    input_rounds = int(input("How many rounds would you like to play? Please choose an odd number: ")).strip()
+    input_rounds = int(input("How many rounds would you like to play? Please choose an odd number: "))
     while input_rounds % 2 == 0 or input_rounds <= 0:
         print("Invalid input. Please choose a positive, ODD number of rounds.")
-        input_rounds = int(input("How many rounds would you like to play? Please choose an odd number: ")).strip()
+        input_rounds = int(input("How many rounds would you like to play? Please choose an odd number: "))
 
     #set variables to 0
     rounds_played = 0
